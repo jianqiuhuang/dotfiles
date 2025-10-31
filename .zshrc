@@ -31,3 +31,12 @@ alias gl='git log'
 alias gco='git checkout'
 alias gb='git branch'
 alias gd='git diff'
+
+# tmux command aliases
+alias tl='tmux ls'                          # list sessions
+alias ta='tmux attach -t'                   # attach to session
+alias tn='tmux new -s'                      # new named session
+alias tk='tmux kill-session -t'             # kill session
+alias tka='tmux kill-server'                # kill all sessions
+alias td='tmux detach'                      # detach from session
+alias ts='tmux switch -t'                   # switch to session
