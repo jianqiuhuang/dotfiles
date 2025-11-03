@@ -1,0 +1,26 @@
+[alias]
+    st = status                # Show the working tree status
+    co = checkout              # Switch branches or restore files
+    br = branch                # List, create, or delete branches
+    ci = commit                # Record changes to the repository
+    lg = log --oneline --graph --decorate --all   # Pretty log with graph and decorations
+    last = log -1 HEAD         # Show the latest commit
+    unstage = reset HEAD --    # Unstage files (keep changes)
+    df = diff                  # Show unstaged changes
+    dc = diff --cached         # Show staged changes
+    amend = !git add -A && git commit --amend --no-edit   # Stage all changes and amend latest commit without editing message
+
+[core]
+    editor = code --wait           # Use VS Code as the default editor
+
+[merge]
+    tool = vimdiff                 # Set default merge tool
+
+[diff]
+    tool = vimdiff                 # Set default diff tool
+
+[color]
+    ui = auto                      # Enable colored output
+
+[push]
+    default = current              # Push the current branch by default
