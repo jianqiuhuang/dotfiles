@@ -9,6 +9,8 @@
     df = diff                  # Show unstaged changes
     dc = diff --cached         # Show staged changes
     amend = !git add -A && git commit --amend --no-edit   # Stage all changes and amend latest commit without editing message
+    sh = stash
+    sp = stach pop
 
 [core]
     editor = code --wait           # Use VS Code as the default editor
