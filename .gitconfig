@@ -3,7 +3,7 @@
     co = checkout              # Switch branches or restore files
     br = branch                # List, create, or delete branches
     ci = commit                # Record changes to the repository
-    lg = log --oneline --graph --decorate --all   # Pretty log with graph and decorations
+    lg = log --oneline --graph --decorate --all -n 10  # Pretty log with graph and decorations
     last = log -1 HEAD         # Show the latest commit
     unstage = reset HEAD --    # Unstage files (keep changes)
     df = diff                  # Show unstaged changes
